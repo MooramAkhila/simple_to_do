@@ -18,6 +18,7 @@ jobs:
           app_id: 72358749
           app_code: 87653085
           api_request: https://app.endtest.io/api.php?action=runWeb&appId=72358749&appCode=87653085&suite=1886914&platform=windows&os=windows10&browser=chrome&browserVersion=latest&resolution=1280x1024&geolocation=sanfrancisco&cases=20577375,20577376&notes=
+
           number_of_loops: 10
       - name: Use the outputs from test execution in a different step
         run: |
